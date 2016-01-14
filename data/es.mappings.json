@@ -1,0 +1,89 @@
+{
+	"georequetes": {
+		"communes": {
+			"properties": {
+				"geometry": {
+					"type": "geo_shape"
+				},
+				"properties": {
+					"properties": {
+						"centroid_x": {
+							"type": "double"
+						},
+						"centroid_y": {
+							"type": "double"
+						},
+						"code": {
+							"type": "string"
+						},
+						"nom": {
+							"type": "string"
+						}
+					}
+				},
+				"type": {
+					"type": "string"
+				}
+			}
+		},
+		"departements": {
+			"properties": {
+				"geometry": {
+					"type": "geo_shape"
+				},
+				"properties": {
+					"properties": {
+						"code": {
+							"type": "string"
+						},
+						"nom": {
+							"type": "string"
+						}
+					}
+				},
+				"type": {
+					"type": "string"
+				}
+			}
+		},
+		"regions": {
+			"properties": {
+				"geometry": {
+					"type": "geo_shape"
+				},
+				"properties": {
+					"properties": {
+						"code": {
+							"type": "string"
+						},
+						"nom": {
+							"type": "string"
+						}
+					}
+				},
+				"type": {
+					"type": "string"
+				}
+			}
+		},
+		"communes_pj": {
+			"properties": {
+				"code_localite_pj": {
+					"type": "string"
+				},
+				"code_localite_insee": {
+					"type": "string"
+				},
+				"code_localite_insee_pj": {
+					"type": "string"
+				},
+				"libelle": {
+					"type": "string"
+				},
+				"principale": {
+					"type": "boolean"
+				}
+			}
+		}
+	}
+}
